@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "338861751171",
+    "project_id": "bewell-31cda",
+    "storage_bucket": "bewell-31cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338861751171:android:10279d027d54e94f1d54b6",
+        "android_client_info": {
+          "package_name": "com.example.bewell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338861751171-s2urvuqqrkj5ttdhhv5aqfk2r8j49sln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bewell",
+            "certificate_hash": "ed2223d6c1026aa2decd0ec7704cd6ff56823d0f"
+          }
+        },
+        {
+          "client_id": "338861751171-u6u939jnnce64706m3rh9ac4upn09pgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBNqa-2nGvMRmZoch3hV6ZZyWxdyGvN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338861751171-u6u939jnnce64706m3rh9ac4upn09pgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
