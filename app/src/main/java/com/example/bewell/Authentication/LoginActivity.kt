@@ -77,6 +77,7 @@ class LoginActivity : AppCompatActivity() {
                                 "Login is successful",
                                 Toast.LENGTH_SHORT
                             ).show()
+                            loadNext()
                             changeActivity(this, MainActivity::class.java)
                         } else {
                             Toast.makeText(
@@ -95,6 +96,10 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             }
+
+    }
+
+    private fun loadNext() {
 
     }
 }
