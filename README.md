@@ -10,6 +10,6 @@ Android app to be a co-pilot for psychaitrists to extend their attention and for
 - gp and psychaitrist interaction through app
 - the app can recognize the need for psy. visit
 - booking as well, or integrating a booking app
--supports the clinician to diagnose of depression (more data of the patient is avaiable on day to day basis)
--involves the relatives/friends/family in the treatment
--gives tips/educational material both to the patient and to the supporting relatives 
+- supports the clinician to diagnose of depression (more data of the patient is avaiable on day to day basis)
+- involves the relatives/friends/family in the treatment
+- gives tips/educational material both to the patient and to the supporting relatives 
