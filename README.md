@@ -23,4 +23,4 @@ Android app to be a co-pilot for psychaitrists to extend their attention and for
 - stories/cases of similar patients with similar problems from the same country
 - sleep and step monitoring (smart-watches)
 - appoinment and phonebook (GP, helpline, psychiatrist) chat with GP/clinician?
-- link to local mental helath forums
+- link to local mental health forums
