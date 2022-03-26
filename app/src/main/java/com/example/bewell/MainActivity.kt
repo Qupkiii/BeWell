@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.Button
+import com.example.bewell.Database.Journal
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {

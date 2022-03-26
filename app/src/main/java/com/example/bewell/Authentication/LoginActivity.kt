@@ -1,5 +1,6 @@
 package com.example.bewell.Authentication
 
+import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bewell.MainActivity
@@ -11,7 +12,10 @@ import android.util.Patterns
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.example.bewell.Form.FormActivity
 import com.google.android.material.textfield.TextInputEditText
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
         val user = auth.currentUser
         if (user != null) {
             if(user.isEmailVerified) {
-                changeActivity(this, MainActivity::class.java)
+                loadNext()
             }
         }
         val button_login = findViewById<Button>(R.id.button_login)
@@ -78,7 +82,6 @@ class LoginActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT
                             ).show()
                             loadNext()
-                            changeActivity(this, MainActivity::class.java)
                         } else {
                             Toast.makeText(
                                 this,
@@ -96,10 +99,25 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             }
-
     }
 
     private fun loadNext() {
+        val uid = FirebaseAuth.getInstance().currentUser?.uid
+        val db = Firebase.firestore
+        val docRef = db.collection("Users").document(uid.toString())
+        docRef.get()
+            .addOnSuccessListener { document ->
+                if (document.data != null) {
+                    Log.d("loadNext", "DocumentSnapshot data: ${document.data}")
+                    changeActivity(this, MainActivity::class.java)
+                } else {
+                    Log.d("loadNext", "No such document")
+                    changeActivity(this, FormActivity::class.java)
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.d("loadNext", "get failed with ", exception)
+            }
 
     }
 }

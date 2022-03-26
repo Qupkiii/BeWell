@@ -13,3 +13,6 @@ fun <T : AppCompatActivity> changeActivity(context: Context, nextActivity: Class
     }
     ContextCompat.startActivity(context, intent, null)
 }
+
+
+
