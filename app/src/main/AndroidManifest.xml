@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeWell">
+
         <activity
-            android:name=".Form.FormMoodActivity"
             android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".HealthActivity"
+            android:name=".Form.FormMoodActivity"
             android:exported="false" />
         <activity
-            android:name=".Form.FormActivity"
+            android:name=".HealthActivity"
             android:exported="false" />
         <activity
             android:name=".Authentication.PasswordResetActivity"
