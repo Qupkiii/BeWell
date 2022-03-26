@@ -7,6 +7,7 @@ Android app to be a co-pilot for psychaitrists to extend their attention and for
 - helps the GPs to redirect potentionally depressive patients to the psychiatrist
 
 ## Ideas
+- interactive map for available psychaitrists(booking as well?), suicide centers
 - gp and psychaitrist interaction through app
 - the app can recognize the need for psy. visit
 - booking as well, or integrating a booking app
