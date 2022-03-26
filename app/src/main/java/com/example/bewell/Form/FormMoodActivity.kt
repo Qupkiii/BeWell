@@ -3,24 +3,18 @@ package com.example.bewell.Form
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.RadioButton
 import android.widget.RadioGroup
-import android.widget.TextView
-import androidx.databinding.DataBindingUtil
-import com.example.bewell.Database.Journal
 import com.example.bewell.R
-import com.google.firebase.auth.FirebaseAuth
-import kotlin.math.log
+import com.example.bewell.Utilities.setBottomNav
 
 class FormMoodActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form)
+
+        setBottomNav(findViewById(R.id.bottom_navigation), this)
 
 //        val uid = FirebaseAuth.getInstance().currentUser?.uid
 //        val j = Journal(uid.toString(), 30)

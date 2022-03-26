@@ -5,7 +5,7 @@ import android.content.Intent
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.bewell.Form.FormActivity
+import com.example.bewell.Form.FormMoodActivity
 import com.example.bewell.HealthActivity
 import com.example.bewell.MainActivity
 import com.example.bewell.R
@@ -30,7 +30,7 @@ fun setBottomNav (bottomNavigationView: BottomNavigationView, context: Context){
                 true
             }
             R.id.start_form -> {
-                changeActivity(context, FormActivity::class.java)
+                changeActivity(context, FormMoodActivity::class.java)
                 true
             }
             R.id.health -> {

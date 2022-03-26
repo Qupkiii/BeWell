@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.bewell.Database.FirstForm
 import com.example.bewell.Database.Form
 import com.example.bewell.Database.Journal
-import com.example.bewell.Form.FormActivity
 import com.example.bewell.Utilities.changeActivity
 import com.example.bewell.Utilities.setBottomNav
 import com.google.android.material.bottomnavigation.BottomNavigationView
