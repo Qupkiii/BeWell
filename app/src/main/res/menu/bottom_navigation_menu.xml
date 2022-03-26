@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/start_form"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sticky_note_2_24"
+        android:title="@string/Form"/>
+    <item
+        android:id="@+id/health"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_healing_24"
+        android:title="@string/health"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"/>
+</menu>

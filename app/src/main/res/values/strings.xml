@@ -10,4 +10,8 @@
     <string name="already_have_an">Already have an account? Click here!</string>
     <string name="username">Username</string>
     <string name="i_have_read"><u>I have read and accept the  General Terms and Conditions.</u></string>
+    <string name="Form">Form</string>
+    <string name="health">Health</string>
+    <string name="settings">settings</string>
+    <string name="home">Home</string>
 </resources>
