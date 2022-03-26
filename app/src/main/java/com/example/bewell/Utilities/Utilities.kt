@@ -23,7 +23,6 @@ fun <T : AppCompatActivity> changeActivity(context: Context, nextActivity: Class
 
 fun setBottomNav (bottomNavigationView: BottomNavigationView, context: Context){
     bottomNavigationView.setOnItemSelectedListener() { item ->
-        Log.d("nav", item.toString())
         when(item.itemId) {
             R.id.home -> {
                 changeActivity(context, MainActivity::class.java)

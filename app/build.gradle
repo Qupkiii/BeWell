@@ -61,5 +61,7 @@ dependencies {
     //gif
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
 
+    //recyclical
+    implementation 'com.afollestad:recyclical:1.1.1'
 }
 
