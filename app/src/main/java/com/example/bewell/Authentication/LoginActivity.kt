@@ -1,6 +1,5 @@
 package com.example.bewell.Authentication
 
-import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bewell.MainActivity
@@ -12,7 +11,7 @@ import android.util.Patterns
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.example.bewell.Form.FormActivity
+import com.example.bewell.Form.FormMoodActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -112,7 +111,7 @@ class LoginActivity : AppCompatActivity() {
                     changeActivity(this, MainActivity::class.java)
                 } else {
                     Log.d("loadNext", "No such document")
-                    changeActivity(this, FormActivity::class.java)
+                    changeActivity(this, FormMoodActivity::class.java)
                 }
             }
             .addOnFailureListener { exception ->

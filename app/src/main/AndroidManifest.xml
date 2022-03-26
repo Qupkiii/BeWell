@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeWell">
         <activity
-            android:name=".Form.FormActivity"
+            android:name=".Form.FormMoodActivity"
             android:exported="false" />
         <activity
             android:name=".Authentication.PasswordResetActivity"
