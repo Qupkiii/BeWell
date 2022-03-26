@@ -11,7 +11,7 @@ import android.util.Patterns
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.example.bewell.Form.FormMoodActivity
+import com.example.bewell.Form.FormActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -111,7 +111,7 @@ class LoginActivity : AppCompatActivity() {
                     changeActivity(this, MainActivity::class.java)
                 } else {
                     Log.d("loadNext", "No such document")
-                    changeActivity(this, FormMoodActivity::class.java)
+                    changeActivity(this, FormActivity::class.java)
                 }
             }
             .addOnFailureListener { exception ->

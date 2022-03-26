@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Form.FormMoodActivity">
+        tools:context=".Form.FormActivity">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -173,29 +173,26 @@
 
 
                 <RadioGroup
+                    android:id="@+id/item_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_1_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I do not feel sad." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_1_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel sad" />
 
                     <RadioButton
-                        android:id="@+id/radioButton_1_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am sad all the time and I can't snap out of it. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_1_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am so sad and unhappy that I can't stand it.
@@ -215,29 +212,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_2_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am not particularly discouraged about the future. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_2_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel discouraged about the future. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_2_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel I have nothing to look forward to." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_2_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel the future is hopeless and that things cannot improve. " />
@@ -255,29 +249,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_3_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I do not feel like a failure. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_3_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel I have failed more than the average person. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_3_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="As I look back on my life, all I can see is a lot of failures. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_3_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel I am a complete failure as a person." />
@@ -301,29 +292,26 @@
                     android:layout_height="30dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_4_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I get as much satisfaction out of things as I used to. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_4_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't enjoy things the way I used to." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_4_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't get real satisfaction out of anything anymore. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_4_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am dissatisfied or bored with everything. " />
@@ -342,29 +330,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_5_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't feel particularly guilty " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_5_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel guilty a good part of the time. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_5_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel quite guilty most of the time. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_5_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel guilty all of the time. " />
@@ -382,29 +367,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_6_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't feel disappointed in myself. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_6_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel I may be punished. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_6_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I expect to be punished. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_6_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel I am being punished" />
@@ -422,29 +404,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_7_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't feel disappointed in myself. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_7_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am disappointed in myself. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_7_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am disgusted with myself. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_7_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I hate myself" />
@@ -462,30 +441,27 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_8_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't feel I am any worse than anybody else.
 " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_8_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am critical of myself for my weaknesses or mistakes. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_8_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I blame myself all the time for my faults. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_8_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I blame myself for everything bad that happens. " />
@@ -503,29 +479,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_9_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't have any thoughts of killing myself" />
 
                     <RadioButton
-                        android:id="@+id/radioButton_9_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I have thoughts of killing myself, but I would not carry them out. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_9_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I would like to kill myself. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_9_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I would kill myself if I had the chance. " />
@@ -544,29 +517,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_10_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I don't cry any more than usual." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_10_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I cry more now than I used to. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_10_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I cry all the time now." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_10_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I used to be able to cry, but now I can't cry even though I want to. " />
@@ -584,29 +554,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_11"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_11_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am no more irritated by things than I ever was. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_11_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am slightly more irritated now than usual. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_11_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am quite annoyed or irritated a good deal of the time." />
 
                     <RadioButton
-                        android:id="@+id/radioButton_11_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I feel irritated all the time." />
@@ -625,29 +592,26 @@
 
 
                 <RadioGroup
+                    android:id="@+id/item_12"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_12_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I have not lost interest in other people. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_12_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I am less interested in other people than I used to be. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_12_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I have lost most of my interest in other people. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_12_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I have lost all of my interest in other people. " />
@@ -665,29 +629,26 @@
                     android:layout_height="15dp"/>
 
                 <RadioGroup
+                    android:id="@+id/item_13"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton_13_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I make decisions about as well as I ever could. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_13_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I put off making decisions more than I used to. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_13_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I have greater difficulty in making decisions more than I used to. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton_13_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="I can't make decisions at all anymore. " />
@@ -701,12 +662,12 @@
                     android:id="@+id/finish_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Kész" />
 
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"/>
+                    android:layout_height="75dp"/>
 
             </LinearLayout>
         </ScrollView>

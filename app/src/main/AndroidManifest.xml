@@ -14,7 +14,7 @@
             android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".Form.FormMoodActivity"
+            android:name=".Form.FormActivity"
             android:exported="false" />
         <activity
             android:name=".HealthActivity"
