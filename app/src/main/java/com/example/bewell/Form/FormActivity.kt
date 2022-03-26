@@ -63,10 +63,6 @@ class FormActivity : AppCompatActivity() {
             catch (e: Exception) {
                 Log.d(FormActivity::class.java.simpleName, "Upload to firebase has failed ${e.message}")
             }
-
-
         }
     }
-
-
 }

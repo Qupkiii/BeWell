@@ -5,25 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:padding="8dp"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent">
-
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@drawable/logo" />
+        android:layout_height="match_parent">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
 
-    </LinearLayout>
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_navigation"
+                android:layout_marginTop="30dp"
+                android:text="Dear User, welcome to BeWell!\n\nPlease let me show you around!\n\nBeWELL is an application that want to support people with depression to manage, monitor and control their disease.
+\n\nWe aim to:\n
+- Help you recognize your potentional symptoms\n
+- Help you seek professionals, that you can reach out to\n
+- Manage your treatment\n
+- Support educational material to know more about your condition\n
+- Provide up to date information to your physician about you\n
+- Involve your loved ones in your treatment if you want to\n\n
+
+For starters let's fill out a test, shall we? Go to Form icon in the main menu and answer a few question about your condition
+
+\n\nFuture features:\n
+- Help you visualize relevant informations about you\n
+- Engage you in local activities that can help you feel better\n
+- Keep in touch with your physician\n
+- Digital diary about your treatment journey\n
+- Find out about stories of others"
+                android:textAlignment="textStart" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -31,4 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_navigation_menu" />
+
+
+
 </RelativeLayout>
