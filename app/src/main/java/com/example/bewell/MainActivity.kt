@@ -1,10 +1,8 @@
 package com.example.bewell
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ViewGroup
-import android.widget.Button
-import com.example.bewell.Database.Journal
+import androidx.appcompat.app.AppCompatActivity
+import com.example.bewell.Database.Form
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         val uid = FirebaseAuth.getInstance().currentUser?.uid
         //If not logged in load
 
+
+
     }
 }
+
 
