@@ -34,11 +34,6 @@ class SettingsActivity : AppCompatActivity() {
         val bday_tv = findViewById<TextView>(R.id.date_of_birth)
 
         setBottomNav(findViewById(R.id.bottom_navigation), this)
-//        dataSource = dataSourceTypedOf(
-//            Contacts("test1@gmail.com"),
-//            Contacts("test2@gmail.com"),
-//            Contacts("test3@gmail.com")
-//        )
 
         val docRef = db.collection("Users").document(uid.toString())
         docRef.get().addOnSuccessListener {
