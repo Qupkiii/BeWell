@@ -5,12 +5,15 @@ import android.content.Intent
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.bewell.Authentication.LoginActivity
 import com.example.bewell.Form.FormActivity
 import com.example.bewell.HealthActivity
 import com.example.bewell.MainActivity
 import com.example.bewell.R
 import com.example.bewell.SettingsActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 fun <T : AppCompatActivity> changeActivity(context: Context, nextActivity: Class<T>, message: String? = null) {
     val intent = Intent(context, nextActivity).apply {
@@ -44,4 +47,12 @@ fun setBottomNav (bottomNavigationView: BottomNavigationView, context: Context){
         }
     }
 }
+
+fun logOut(context: Context) {
+    Firebase.auth.signOut()
+    changeActivity(context, LoginActivity::class.java)
+}
+
+
+
 

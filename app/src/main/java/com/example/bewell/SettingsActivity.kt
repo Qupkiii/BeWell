@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.afollestad.recyclical.ViewHolder
@@ -13,6 +14,7 @@ import com.afollestad.recyclical.datasource.dataSourceTypedOf
 import com.afollestad.recyclical.datasource.emptyDataSourceTyped
 import com.afollestad.recyclical.setup
 import com.afollestad.recyclical.withItem
+import com.example.bewell.Utilities.logOut
 import com.example.bewell.Utilities.setBottomNav
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.ktx.firestore
@@ -32,6 +34,8 @@ class SettingsActivity : AppCompatActivity() {
         val doctor_tv = findViewById<TextView>(R.id.doctor_contact)
         val name_tv = findViewById<TextView>(R.id.name)
         val bday_tv = findViewById<TextView>(R.id.date_of_birth)
+
+        val log_out_b = findViewById<Button>(R.id.log_out)
 
         setBottomNav(findViewById(R.id.bottom_navigation), this)
 
@@ -69,6 +73,10 @@ class SettingsActivity : AppCompatActivity() {
                     Log.d("fasza", "long $index")
                 }
             }
+        }
+
+        log_out_b.setOnClickListener {
+            logOut(this)
         }
 
     }
