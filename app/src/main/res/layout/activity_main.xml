@@ -50,9 +50,33 @@ For starters let's fill out a test, shall we? Go to Form icon in the main menu a
 - Digital diary about your treatment journey\n
 - Find out about stories of others"
                 android:textAlignment="textStart" />
+
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="60dp"/>
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/open_journal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Write to your journal"
+                android:textAlignment="center" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
         </LinearLayout>
     </ScrollView>
 
@@ -62,7 +86,6 @@ For starters let's fill out a test, shall we? Go to Form icon in the main menu a
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_navigation_menu" />
-
 
 
 </RelativeLayout>
